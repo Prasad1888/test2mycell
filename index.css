@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.maincontainer {
+    background-color: white;
+    width: 393px;
+    position: relative;
+    margin: 65px 595px;
+    height: 600px;
+    border-radius: 27px;
+}
+
+.maincontainer img {
+    width: 298px;
+    position: relative;
+    padding: 31px 0px 29px 75px;
+    margin-left: -26px;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
+}
+
+.para {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+}
+
+/* Adding media queries for 393px */
+@media screen and (max-width:394px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .maincontainer{
+        margin: 71px 26px;
+        width: 322px;
+        height: 494px;
+    }
+    .maincontainer img{
+        margin-left: -32px;
+        width: 243px;
+    }
+}
